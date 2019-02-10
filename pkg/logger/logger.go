@@ -4,8 +4,8 @@ import "fmt"
 
 var Active bool
 
-func Log(s string) {
+func Logf(format string, a ...interface{}) {
 	if Active {
-		fmt.Printf("gc: %s\n", s)
+		fmt.Printf("gc: "+format+"\n", a...)
 	}
 }

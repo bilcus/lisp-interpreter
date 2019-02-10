@@ -29,3 +29,11 @@ func (s *Stack) Pop() Object {
 	s.stack = s.stack[:l-1]
 	return toRet
 }
+
+func (s *Stack) PopTimes(n int) Object {
+	var o Object
+	for i := 0; i < n; i++ {
+		o = s.Pop()
+	}
+	return o
+}
