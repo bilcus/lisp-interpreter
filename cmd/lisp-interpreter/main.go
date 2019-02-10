@@ -18,7 +18,7 @@ The commands are:
 	input	interpret text file
 
 The arguments are:
-	-d		Debug GC print
+	-d	Debug GC print
 
 `
 
@@ -28,7 +28,7 @@ Usage:
 	lisp-interpreter input [path] [arguments]
 
 The arguments are:
-	-d		Debug GC print
+	-d	Debug GC print
 
 `
 
